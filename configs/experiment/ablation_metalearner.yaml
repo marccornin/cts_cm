@@ -1,0 +1,11 @@
+name: ablation_metalearner
+forest:
+  metalearner: T
+  n_trees: 2000
+  min_leaf: 5
+  honest_frac: 0.5
+  max_features: 0.5
+runtime:
+  seed: 20240501
+  output_dir: runs/ablation_metalearner
+  log_level: INFO

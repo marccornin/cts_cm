@@ -1,0 +1,8 @@
+cohort: ukb
+name: UK Biobank
+url: https://www.ukbiobank.ac.uk
+n: 45581
+role: Mendelian randomization triangulation
+access: restricted, approved application required
+ethics_ref: 21/NW/0157
+csv_path: data/ukb/oa_cases.csv

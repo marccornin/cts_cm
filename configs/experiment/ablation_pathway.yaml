@@ -1,0 +1,8 @@
+name: ablation_pathway
+mediation:
+  mc_draws: 200
+  sensitivity_rho: [0.0, 0.1, 0.2, 0.3, 0.4, 0.5]
+runtime:
+  seed: 20240501
+  output_dir: runs/ablation_pathway
+  log_level: INFO

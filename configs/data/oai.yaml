@@ -1,0 +1,7 @@
+cohort: oai
+name: Osteoarthritis Initiative
+url: https://nda.nih.gov/oai
+n: 4484
+role: discovery and internal cross-fit
+access: public with data use agreement
+csv_path: data/oai/analytic.csv

@@ -1,0 +1,7 @@
+cohort: most
+name: Multicenter Osteoarthritis Study
+url: https://most.ucsf.edu/
+n: 3026
+role: primary external validation
+access: public
+csv_path: data/most/analytic.csv

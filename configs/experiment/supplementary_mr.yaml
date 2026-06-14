@@ -1,0 +1,9 @@
+name: supplementary_mr
+data:
+  cohort: synthetic_oai
+  n: 4484
+  n_timepoints: 10
+runtime:
+  seed: 20240501
+  output_dir: runs/supplementary_mr
+  log_level: INFO

@@ -1,0 +1,12 @@
+name: ablation_ngroups
+trajectory:
+  n_groups: 4
+  group_grid: [3, 4, 5, 6]
+  poly_degree: 3
+  n_starts: 500
+  min_group_frac: 0.02
+  min_posterior: 0.70
+runtime:
+  seed: 20240501
+  output_dir: runs/ablation_ngroups
+  log_level: INFO

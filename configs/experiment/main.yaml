@@ -1,0 +1,45 @@
+name: main
+risk_factors: [bmi, physical_activity, occupational_loading, metabolic_syndrome]
+data:
+  cohort: synthetic_oai
+  n: 4484
+  n_timepoints: 10
+  horizon_years: 14.0
+  missing_rate: 0.083
+  csv_path: ""
+trajectory:
+  n_groups: 4
+  group_grid: [3, 4, 5, 6]
+  poly_degree: 3
+  n_starts: 500
+  min_group_frac: 0.02
+  min_posterior: 0.70
+  max_iter: 200
+  tol: 1.0e-5
+dml:
+  n_folds: 5
+  xgb_max_depth: 6
+  xgb_lr: 0.1
+  xgb_rounds: 500
+  propensity_trim: 0.01
+forest:
+  metalearner: X
+  n_trees: 2000
+  min_leaf: 5
+  honest_frac: 0.5
+  max_features: 0.5
+mediation:
+  mc_draws: 200
+  sensitivity_rho: [0.0, 0.1, 0.2, 0.3, 0.4, 0.5]
+conformal:
+  alpha: 0.05
+  calib_frac: 0.20
+resample:
+  n_bootstrap: 1000
+  n_seeds: 20
+  n_imputations: 10
+  fdr_alpha: 0.05
+runtime:
+  seed: 20240501
+  output_dir: runs/main
+  log_level: INFO

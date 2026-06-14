@@ -1,0 +1,13 @@
+name: supplementary_sensitivity
+mediation:
+  mc_draws: 200
+  sensitivity_rho: [0.0, 0.1, 0.2, 0.3, 0.4, 0.5]
+resample:
+  n_bootstrap: 1000
+  n_seeds: 20
+  n_imputations: 10
+  fdr_alpha: 0.05
+runtime:
+  seed: 20240501
+  output_dir: runs/supplementary_sensitivity
+  log_level: INFO

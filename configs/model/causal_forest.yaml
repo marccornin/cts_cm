@@ -1,0 +1,6 @@
+metalearner: X
+candidates: [S, T, X, DR, R]
+n_trees: 2000
+min_leaf: 5
+honest_frac: 0.5
+max_features: 0.5

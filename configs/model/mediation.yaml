@@ -1,0 +1,4 @@
+mc_draws: 200
+mechanical_mediators: [knee_disorders, joint_space_width, muscle_strength]
+metabolic_mediators: [crp, metabolic_syndrome_status, waist_circumference, fasting_glucose]
+sensitivity_rho: [0.0, 0.1, 0.2, 0.3, 0.4, 0.5]

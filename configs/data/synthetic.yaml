@@ -1,0 +1,6 @@
+cohort: synthetic_oai
+n: 4484
+n_timepoints: 10
+horizon_years: 14.0
+missing_rate: 0.083
+group_fractions: [0.519, 0.270, 0.160, 0.051]

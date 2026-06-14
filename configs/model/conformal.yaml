@@ -1,0 +1,3 @@
+alpha: 0.05
+calib_frac: 0.20
+nominal_coverage: 0.95

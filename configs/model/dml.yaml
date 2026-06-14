@@ -1,0 +1,5 @@
+n_folds: 5
+xgb_max_depth: 6
+xgb_lr: 0.1
+xgb_rounds: 500
+propensity_trim: 0.01
